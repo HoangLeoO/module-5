@@ -31,3 +31,13 @@ const person = {
         university: 'Hava'
     }
 };
+const {firstName,lastName,age,education } = person;
+const newUser = {firstName,lastName,age,education} ;
+console.log(newUser);
+
+function getInfo(obj) {
+    const {firstName = "Quan",education: {degree}} = obj
+    console.log(firstName + " " + degree)
+}
+const user2 = {education}
+getInfo(user2);

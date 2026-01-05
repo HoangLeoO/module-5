@@ -50,3 +50,4 @@ function showList() {
 
 const newArr2 = [...courses,...addedCourses]
 console.log(newArr2)
+showList()
