@@ -8,7 +8,7 @@ import Login from "./Login.jsx";
 createRoot(document.getElementById('root')).render(
     <StrictMode>
         {/*<App/>*/}
-        {/*<ShowListCustomer/>*/}
-        <Login/>
+        <ShowListCustomer/>
+        {/*<Login/>*/}
     </StrictMode>,
 )
