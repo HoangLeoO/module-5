@@ -2,7 +2,7 @@ import { useNavigate, useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import { playerSchema } from "../validation/playerSchema.jsx";
-import { addPlayer, findPlayerById, updatePlayer } from "../service/DataService.js";
+import {findByIdPlayer} from "../service/playerService.js";
 import { toast } from "react-toastify";
 
 const EditPlayer = () => {
@@ -18,7 +18,7 @@ const EditPlayer = () => {
     const { id } = useParams();
 
     useEffect(() => {
-        const player = findPlayerById(+id);
+        const player = findByIdPlayer(+id);
         setNewPlayer(player);
     }, []);
 

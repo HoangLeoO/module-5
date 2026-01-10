@@ -8,7 +8,7 @@ const AppRoutes = () => {
     return (
         <Routes>
             <Route element={<MainLayout />}>
-                <Route path="/" element={<Home />} />
+                <Route path="/" element={<Home />} ></Route>
                 <Route path="/add" element={<AddNewPlayer />} />
                 <Route path="/edit/:id" element={<EditPlayer />} />
             </Route>

@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
-import {Button, Modal} from "react-bootstrap";
+import { Button, Modal } from "react-bootstrap";
 
 export const DeleteComponent = (props) => {
 
@@ -20,16 +20,16 @@ export const DeleteComponent = (props) => {
                 </Modal.Header>
 
                 <Modal.Body>
-                    Are you sure you want to delete this customer is <span>{
-                    props.selectedPlayer?.name
-                }?</span>
+                    Are you sure you want to delete this player is <span>{
+                        props.selectedPlayer?.name
+                    }?</span>
                 </Modal.Body>
 
                 <Modal.Footer>
                     <Button variant="secondary" onClick={handleClose}>
                         Cancel
                     </Button>
-                    <Button variant="danger" onClick={ () => props.onConfirm(props.selectedPlayer.id)}>
+                    <Button variant="danger" onClick={() => props.onConfirm(props.selectedPlayer.id)}>
                         Confirm
                     </Button>
                 </Modal.Footer>
