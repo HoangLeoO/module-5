@@ -5,7 +5,7 @@
       "playerCode": "PL002",
       "name": "Nguyễn Văn B",
       "birthDate": "1998-05-12",
-      "transferValue": 25000000,
+      "transferValue": 25000000222,
       "position": {
         "id": 1,
         "name": "Tiền đạo"
@@ -43,6 +43,18 @@
     {
       "id": 3,
       "name": "Thủ môn"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "hoang123",
+      "password": "123"
+    },
+    {
+      "id": 2,
+      "username": "demo123",
+      "password": "123"
     }
   ]
 }
