@@ -1,0 +1,269 @@
+{
+  "facilities": [
+    {
+      "id": 1,
+      "facilityTypeId": 1,
+      "name": "Villa Beach Front",
+      "area": 250,
+      "cost": 12000000,
+      "maxPeople": 10,
+      "rentTypeId": 3,
+      "roomStandard": "VIP",
+      "otherConvenience": "Sea view, Private pool",
+      "poolArea": 40,
+      "floors": 2
+    },
+    {
+      "id": 2,
+      "facilityTypeId": 2,
+      "name": "House Garden View",
+      "area": 180,
+      "cost": 7000000,
+      "maxPeople": 6,
+      "rentTypeId": 3,
+      "roomStandard": "Deluxe",
+      "otherConvenience": "Garden, BBQ",
+      "floors": 1
+    },
+    {
+      "id": 3,
+      "facilityTypeId": 3,
+      "name": "Room Standard",
+      "area": 45,
+      "cost": 1500000,
+      "maxPeople": 2,
+      "rentTypeId": 4,
+      "freeService": "Breakfast"
+    },
+    {
+      "id": 7,
+      "facilityTypeId": 3,
+      "name": "Room Demo",
+      "area": 200,
+      "cost": 200000,
+      "maxPeople": 9,
+      "rentTypeId": 4,
+      "freeService": "Nước uống, Dọn phòng, Xe đưa đón sân bay"
+    }
+  ],
+  "facilityTypes": [
+    {
+      "id": 1,
+      "name": "Villa"
+    },
+    {
+      "id": 2,
+      "name": "House"
+    },
+    {
+      "id": 3,
+      "name": "Room"
+    }
+  ],
+  "rentTypes": [
+    {
+      "id": 1,
+      "name": "Năm"
+    },
+    {
+      "id": 2,
+      "name": "Tháng"
+    },
+    {
+      "id": 3,
+      "name": "Ngày"
+    },
+    {
+      "id": 4,
+      "name": "Giờ"
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "name": "Nguyễn Văn An",
+      "dob": "1990-10-15",
+      "idCard": "123456789",
+      "salary": 10000000,
+      "phone": "0905123456",
+      "email": "an.nguyen@furama.com",
+      "address": "Đà Nẵng",
+      "positionId": 1,
+      "educationDegreeId": 3,
+      "divisionId": 2
+    },
+    {
+      "id": 2,
+      "name": "Lê Thị Bình",
+      "dob": "1995-05-20",
+      "idCard": "987654321",
+      "salary": 8000000,
+      "phone": "0912345678",
+      "email": "binh.le@furama.com",
+      "address": "Quảng Nam",
+      "positionId": 2,
+      "educationDegreeId": 2,
+      "divisionId": 1
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "name": "Trần Văn Hoàng",
+      "dob": "1985-01-01",
+      "gender": 1,
+      "idCard": "111222333",
+      "phone": "0901234567",
+      "email": "hoang.tran@gmail.com",
+      "address": "Hà Nội",
+      "customerTypeId": 1
+    },
+    {
+      "id": 2,
+      "name": "Nguyễn Thị Mai",
+      "dob": "1992-03-12",
+      "gender": 0,
+      "idCard": "444555666",
+      "phone": "0987654321",
+      "email": "mai.nguyen@hotmail.com",
+      "address": "TP HCM",
+      "customerTypeId": 2
+    },
+    {
+      "name": "Hoang Le",
+      "dob": "1997-01-08",
+      "gender": 0,
+      "idCard": "123456789",
+      "phone": "0905688100",
+      "email": "e@gmailm",
+      "address": "Lê Văn Thịnh",
+      "customerTypeId": 3,
+      "id": 3
+    }
+  ],
+  "contracts": [
+    {
+      "id": 1,
+      "startDate": "2024-01-10",
+      "endDate": "2024-01-15",
+      "deposit": 1000000,
+      "employeeId": 1,
+      "customerId": 1,
+      "facilityId": 1
+    },
+    {
+      "startDate": "2026-01-09",
+      "endDate": "2026-01-20",
+      "deposit": 11111,
+      "employeeId": 1,
+      "customerId": 3,
+      "facilityId": 3,
+      "id": 2
+    }
+  ],
+  "customerTypes": [
+    {
+      "id": 1,
+      "name": "Diamond"
+    },
+    {
+      "id": 2,
+      "name": "Platinum"
+    },
+    {
+      "id": 3,
+      "name": "Gold"
+    },
+    {
+      "id": 4,
+      "name": "Silver"
+    },
+    {
+      "id": 5,
+      "name": "Member"
+    }
+  ],
+  "positions": [
+    {
+      "id": 1,
+      "name": "Quản lý"
+    },
+    {
+      "id": 2,
+      "name": "Nhân viên"
+    }
+  ],
+  "educationDegrees": [
+    {
+      "id": 1,
+      "name": "Trung cấp"
+    },
+    {
+      "id": 2,
+      "name": "Cao đẳng"
+    },
+    {
+      "id": 3,
+      "name": "Đại học"
+    },
+    {
+      "id": 4,
+      "name": "Sau đại học"
+    }
+  ],
+  "divisions": [
+    {
+      "id": 1,
+      "name": "Sale-Marketing"
+    },
+    {
+      "id": 2,
+      "name": "Hành chính"
+    },
+    {
+      "id": 3,
+      "name": "Phục vụ"
+    },
+    {
+      "id": 4,
+      "name": "Quản lý"
+    }
+  ],
+  "attachServices": [
+    {
+      "id": 1,
+      "name": "Massage",
+      "unit": "Giờ",
+      "cost": 500000,
+      "status": "Sẵn sàng"
+    },
+    {
+      "id": 2,
+      "name": "Karaoke",
+      "unit": "Giờ",
+      "cost": 200000,
+      "status": "Sẵn sàng"
+    },
+    {
+      "id": 3,
+      "name": "Thức ăn",
+      "unit": "Suất",
+      "cost": 100000,
+      "status": "Sẵn sàng"
+    },
+    {
+      "id": 4,
+      "name": "Nước uống",
+      "unit": "Chai",
+      "cost": 20000,
+      "status": "Sẵn sàng"
+    },
+    {
+      "id": 5,
+      "name": "Thuê xe",
+      "unit": "Ngày",
+      "cost": 500000,
+      "status": "Sẵn sàng"
+    }
+  ]
+}
